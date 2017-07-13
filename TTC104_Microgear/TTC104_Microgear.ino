@@ -12,7 +12,7 @@ const char* password = "YOUR_WIFI_PASSWORD";              // รหัสผ่�
 
 #define LEDPIN D0                                         // LED pin
 #define TTC104_PIN A0
-#define topicPublish "/ttc104/" ALIAS                      // topic ที่ต้องการ publish ส่งข้อความ
+#define topicPublish "/ttc104"                      // topic ที่ต้องการ publish ส่งข้อความ
 unsigned long lastTimeReadAnalog = 0;
 int temperature = -999;
 
